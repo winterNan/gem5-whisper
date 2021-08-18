@@ -33,8 +33,7 @@ OR
 ## To build:
 ~~~
 	$ cd whisper
-	$ ./script.py -b \
-		-w	{ycsb,tpcc,echo,redis,ctree,hashmap,memcached,vacation,nfs,exim,sql,all}
+	$ ./script.py -b -w	{ycsb,tpcc,echo,redis,ctree,hashmap,memcached,vacation,nfs,exim,sql,all}
 ~~~
 
 ## To run (tracing is optional, but need to be root for it):
@@ -112,8 +111,8 @@ Options:                                             (defaults)
 
 Nstore and Echo create a file in /dev/shm (zfile for nstore and efile for echo}
 which act as persistent memory pools. So does every application in WHISPER.
-The default size is 1GB. When space is low,
-the above error is thrown. We will make this a run time parameter in the future. For now, simply increase it by altering the PSEGMENT_RESERVED_REGION_SIZE
+The default size is 1GB. When space is low, the above error is thrown. 
+We will make this a run time parameter in the future. For now, simply increase it by altering the PSEGMENT_RESERVED_REGION_SIZE
 in Nstore and Echo. You may find this variable by using grep, cscope or any indexing tool for browsing source code. 
 Its location varies with application. Delete the old pool, recompile and re-run. Suggested sizes are as shown.
 Please pay attention to the format of defining the size i.e. XXX * 1024 * 1024 * 1024. This is in bytes.

@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2.7
 
 import argparse
 import sys
@@ -588,6 +588,7 @@ def run(sysargs):
 		cd(d)
 
 		cmd = su(t) + './run_memcache.sh' + t2s(t)
+
 		dbg(cmd)
 		sh(cmd)
 		
