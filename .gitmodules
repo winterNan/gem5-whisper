@@ -20,9 +20,9 @@
 	branch = master
 [submodule "kv-echo"]
 	path = kv-echo
-	url = https://github.com/snalli/echo
+	url = https://github.com/winterNan/echo
 	branch = bailey
 [submodule "eliza"]
 	path = eliza
-	url = https://github.com/snalli/eliza
+	url = https://github.com/winterNan/eliza
 	branch = master
