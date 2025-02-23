@@ -16,8 +16,8 @@
 	branch = main
 [submodule "PMFS-new"]
 	path = PMFS-new
-	url = https://github.com/snalli/PMFS-new
-	branch = master
+	url = https://github.com/winterNan/PMFS-new
+	branch = main
 [submodule "kv-echo"]
 	path = kv-echo
 	url = https://github.com/winterNan/kv-echo
