@@ -1,11 +1,11 @@
 [submodule "nstore"]
 	path = nstore
-	url = https://github.com/snalli/nstore
-	branch = placement_new_on_psegments
+	url = https://github.com/winterNan/nstore
+	branch = main
 [submodule "mnemosyne-gcc"]
 	path = mnemosyne-gcc
 	url = https://github.com/winterNan/mnemosyne-gcc
-	branch = master
+	branch = main
 [submodule "nvml"]
 	path = nvml
 	url = https://github.com/snalli/nvml
@@ -21,8 +21,8 @@
 [submodule "kv-echo"]
 	path = kv-echo
 	url = https://github.com/winterNan/kv-echo
-	branch = bailey
+	branch = main
 [submodule "eliza"]
 	path = eliza
 	url = https://github.com/winterNan/eliza
-	branch = master
+	branch = main
