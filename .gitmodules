@@ -8,8 +8,8 @@
 	branch = main
 [submodule "nvml"]
 	path = nvml
-	url = https://github.com/snalli/nvml
-	branch = master
+	url = https://github.com/winterNan/nvml
+	branch = main
 [submodule "redis"]
 	path = redis
 	url = https://github.com/snalli/redis
