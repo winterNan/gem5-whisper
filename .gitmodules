@@ -12,8 +12,8 @@
 	branch = main
 [submodule "redis"]
 	path = redis
-	url = https://github.com/snalli/redis
-	branch = 3.2-nvml
+	url = https://github.com/winterNan/redis
+	branch = main
 [submodule "PMFS-new"]
 	path = PMFS-new
 	url = https://github.com/snalli/PMFS-new
