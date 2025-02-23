@@ -4,7 +4,7 @@
 	branch = placement_new_on_psegments
 [submodule "mnemosyne-gcc"]
 	path = mnemosyne-gcc
-	url = https://github.com/snalli/mnemosyne-gcc
+	url = https://github.com/winterNan/mnemosyne-gcc
 	branch = master
 [submodule "nvml"]
 	path = nvml
